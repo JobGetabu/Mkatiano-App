@@ -7,6 +7,10 @@ import com.google.gson.annotations.SerializedName
 
 /**
  * Created by JOB on 2/22/2018.
+ *
+ * @SerializedName annotation belongs to gson class
+ * and used to read json file variable and bind it to the model variable.
+ * @Expose is used to make the variable readable to the gson
  */
 class Profile {
 
